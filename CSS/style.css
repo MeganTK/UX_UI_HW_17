@@ -105,13 +105,17 @@
 .hero_title {
   font-size: 35px;
   background-color: black;
-  padding: 50px;
+  padding: 50px 50px 0px 50px;
+  margin-bottom: 0;
+  opacity: 0.8;
 }
 
 .hero_desc {
   font-size: 22px;
   background-color: black;
-  padding: 50px;
+  padding: 30px 50px 50px 50px;
+  margin-top: 0;
+  opacity: 0.8;
 }
 
 .hero-text {
@@ -136,12 +140,31 @@
   height: 80%;
 }
 
+/* about section image css */
+.imageAboutPage {
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 80px;
+}
 
+#about {
+  padding-top: 600px;
+}
 
+.col-lg-8 {
+  padding-left: 60px;
+  font-family: "Montserrat", sans-serif;
+}
 
+p {
+  font-size: 20px;
+}
 
-
-
+.text-center {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 60px;
+  padding-left: 80px;
+}
 
 /*
  .preloader{
